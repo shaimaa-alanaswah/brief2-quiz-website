@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="stylesheet" href="index.css" /> -->
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="button89.css">
+  <link rel="stylesheet" href="navAndFooter.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>DevGenius</title>
+
+  
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">DevGenius</a>
+      </div>
+      <div class="links" id="links">
+        <a class="right-link" href="./signup/signUp.html">Sign up</a>
+        <a class="right-link" href="./login/login.html">Log in</a>
+      </div>
+      <div class="logout-button" id="logout-button">
+        <a class="right-link" href="#" onclick="logout()">Log Out</a>
+      </div>
+
+  </header>
+
+  <div class="container scale-up-center">
+    <div class="imgBackgorund">
+      <div class="text">
+        <div id="welcome-message"></div>
+      </div>
+      <div style="color: white; text-align: center; padding: 3%;"><small> A short programming language tests website is
+          an online platform
+          that provides quick coding challenges and quizzes for programmers and developers.
+          These tests are specific to programming languages like HTML, CSS, JavaScript, and others.
+          It's used to assess and test coding skills and understanding, making it a valuable resource for skill
+          improvement and knowledge
+          testing in the software development field. Users can access these
+          tests online and participate to enhance their programming skills.
+        </small></div>
+
+      <div class="buttons scale-up-top">
+        <button id="button-89" class="">
+          <a href="#explore"><span>Go to Quizz</span></a>
+        </button>
+        <button id="button-89">
+          <a href="#footercontact"><span>Contact us</span></a>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="beforeCards first">
+    <h2 class="section-heading" id="explore">Explore Our Quizzes</h2>
+    <p>Short tests to assess your skills and knowledge.</p>
+  </div>
+  
+  <div class="cardsContainer">
+    <div class="card">
+      <div class="circle">
+        <h2 class="html-quiz">HTML</h2>
+      </div>
+      <div class="content">
+        <p>
+          Dive into the world of HTML and create the structure of your web pages.
+        </p>
+        <a href="./preExam/preExam.html" onclick="startQuiz('HTML')"> Start Quiz</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="circle">
+        <h2 class="css-quiz">CSS</h2>
+      </div>
+      <div class="content">
+        <p>
+          Add style and design to your web pages with the power of CSS.
+        </p>
+        <a href="./preExam/preExam.html" onclick="startQuiz('CSS')"> Start Quiz</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="circle">
+        <h2 class="js-quiz">JS</h2>
+      </div>
+      <div class="content">
+        <p>
+          Bring interactivity and dynamic features to your websites using JavaScript.
+        </p>
+        <a href="./preExam/preExam.html" onclick="startQuiz('JavaScript')"> Start Quiz</a>
+      </div>
+    </div>
+  </div>
+  <div class="second-container">
+    <p class="second-h"> Why should you study programming at this time?</p>
+    <div class="numbers">
+      <div>
+        <h2><img src="images/problem solving.png" width="70" alt=""></h2><span>Problem-Solving Skills</span>
+      </div>
+      <div>
+        <h2><img src="images/critical.png" width="70" alt=""></h2><span>Critical Thinking and Analytical Skills</span>
+      </div>
+      <div>
+        <h2><img src="images/creativity.png" width="70" alt=""></h2><span>Creativity and Innovation</span>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <h1 class="tutorial">Tutorials</h1>
+  <div class="resourses">
+    <a href="./youtubeHtml/index.html">
+      <div class="Kart">
+        <p class="Kart-title">HTML Tutorial</p>
+        <p class="small-desc">
+          learning resource designed to teach individuals how to create and structure web content using HTML.
+          HTML is the
+          foundation of web development and is used to define the structure and elements of a web page.
+        </p>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </div>
+    </a>
+    <a href="./youtubeCss/index.html">
+      <div class="Kart">
+        <p class="Kart-title">CSS Tutorial</p>
+        <p class="small-desc">
+          CSS is a critical technology in web development that allows
+          designers and developers to control the presentation and layout of web pages.
+        </p>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </div>
+    </a>
+    <a href="./youtubeJs/index.html">
+      <div class="Kart">
+        <p class="Kart-title">JavaScript Tutorial</p>
+        <p class="small-desc">
+          JavaScript is a versatile and widely used language that
+          allows developers to add dynamic and interactive features to websites and web applications.
+        </p>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <hr>
+  <footer>
+    <div class="footer-content">
+        <h3>Product by  DevGenius</h3>
+        <p>This project was created by the DevGenius team, which includes Malik Obeidat, Mohammad Ghnimat, Shaimaa Anasweh, Ibrahim Hasan, Omama Akour, and Mohammad Thabateh.</p>
+
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook" style="color: black;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter" style="color: black;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google" style="color: black;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube" style="color: black;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin" style="color: black;"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p style="color: white;">copyright &copy; <a href="#" style="color: white;">DevGenius</a></p>
+    </div>
+
+</footer>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

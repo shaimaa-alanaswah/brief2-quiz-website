@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ecf0f1, #ecf0f1);
+    color: #333;
+    /* Readable text color on the light background */
+}
+
+#container {
+    margin: 5%;
+    width: 90%;
+    background-color: white;
+    /* border: 2px solid rgb(204, 180, 180); */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    background-color: #ecf0f1;
+    color: #333;
+    font-size: 5rem;
+    text-align: center;
+    border-bottom: 2px solid rgb(204, 180, 180);
+    color: #dfdf06;
+}
+.fa-brands.fab.fa-size {
+    font-weight: 400;
+    font-size: 8.5rem;
+}
+.fa-size{
+  font-size: larger;
+}
+#mid {
+    background-color: #ecf0f1;
+    /* Light gray background */
+    padding: 2%;
+    color: #333;
+}
+
+#video {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#footerer {
+    text-align: center;
+    gap: 10px;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid rgb(204, 180, 180);
+}
+
+.button-17 {
+    background: white;
+    /* A darker shade of yellow for the button background */
+    /* White text color for contrast */
+    padding: 12px 24px;
+    border: 2px groove black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+    text-transform: uppercase;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.button-17:hover {
+    /* Hover color similar to JS logo yellow */
+    background-color: black;
+    color: white;
+}
+
+#mid h3 {
+    /* JS logo yellow shade for heading */
+    font-size: 24px;
+}
+.button-17
+#video {
+    /* border: 2px soli rgb(204, 180, 180); */
+    /* JS logo yellow shade for the border */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img {
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+iframe {
+
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 390px) {
+
+
+    .videoWrap {
+        justify-content: start;
+        align-items: start;
+        justify-self: start;
+        margin-right: 60px;
+        width: 250px;
+        height: 200px;
+    }
+}
